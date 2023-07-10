@@ -1,0 +1,45 @@
+{
+    "categoryMessage": [
+        {},
+        {
+            "title": "계약이행",
+            "certificationId": 1,
+            "explanation": "계약이행에 관한 설명"
+        },
+        {
+            "title": "매매",
+            "certificationId": 2,
+            "explanation": "매매에 관한 설명"
+        },
+        {
+            "title": "명예훼손",
+            "certificationId": 3,
+            "explanation": "명예훼손에 관한 설명"
+        },
+        {
+            "title": "부동산",
+            "certificationId": 4,
+            "explanation": "부동산에 관한 설명"
+        },
+        {
+            "title": "손해배상",
+            "certificationId": 5,
+            "explanation": "손해배상에 관한 설명"
+        },
+        {
+            "title": "용역",
+            "certificationId": 6,
+            "explanation": "용역에 관한 설명"
+        },
+        {
+            "title": "채무",
+            "certificationId": 7,
+            "explanation": "채무에 관한 설명"
+        },
+        {
+            "title": "통지",
+            "certificationId": 8,
+            "explanation": "통지에 관한 설명"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+.explanation{
+    margin: 0;
+    color: green;
+}
+.docs-box{
+    margin-top: 0;
+    margin-left: 50px; 
+    margin-right: 50px; 
+    margin-bottom: 50px; 
+    padding: 60px;
+    border-radius: 30px;
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.headline{
+    text-align: center;
+}
+.mydocs-text{
+    font-size: 16px;
+}
+.sender{
+    text-align: left;
+}
+.d_name{
+    width: 70px;
+}
+.d_phone{
+    width: 120px;
+}
+.d_day{
+    width: 95px;
+}
+.d_things{
+    width: 120px;
+}
+.address{
+    padding-bottom: 0px;
+    width: 400px;
+    height: 30px;
+    resize: both;
+}
+.recipient{
+    text-align: left;
+}
+.title{
+    text-align: left;
+}
+.content{
+    text-align: left;
+    padding-left: 40px;
+}
+.content2{
+    text-align: left;
+    padding-left: 50px;
+}
+.content3{
+    text-align: left;
+    padding-left: 70px;
+}
+.content4{
+    text-align: left;
+    padding-left: 74px;
+}
+.textarea{
+    width: 200px;
+}
+.today{
+    text-align: center;
+}
+.date{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+.bottom1{
+    text-align: center; 
+    padding-left: 200px;
+}
+.bottom2{
+    text-align: center; 
+    padding-left: 160px;
+}
+.sign{
+    text-align: center; 
+    padding-left: 200px;
+}
+.s_name{
+    width: 70px;
+    text-align: right; 
+}
+.updatedocs-btn{
+    margin-right: 7px;
+    margin-left: 7px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    width: 90px;
+    border-radius: 6px;
+    width: 90px;
+    height: 35px;
+}

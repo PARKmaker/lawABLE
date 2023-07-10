@@ -1,0 +1,79 @@
+.doclist-item {
+  margin: 20px 35px;
+  width: 33.33%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  height: 250px;
+  position: relative;
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden; /* Prevent content from overflowing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.doclist-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doclist-date {
+  text-align: left;
+  color: gray;
+  margin-left: 16px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+.doclist-title {
+  text-align: left;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 16px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.doclist-recipient {
+  /* position: absolute;
+  margin-bottom: 20px; */
+  margin-left: 16px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 350;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button-container > * {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 992px) {
+  .doclist-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .doclist-item {
+    width: 80%;
+  }
+}

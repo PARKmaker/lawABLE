@@ -1,0 +1,113 @@
+.documentation {
+    color: black;
+}
+
+.wholeimg {
+    text-align: center;
+  }
+
+.tabtext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.tabtext > p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.docex-img-list2{
+    display: flex;
+    text-align: center;
+    margin: 16px auto 60px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.docex-img2{
+    width:75%;
+    margin:0.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.5;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.docex-img2:hover {
+    transform: scale(1.5);
+}
+
+.docex-img-caption{
+    font-weight: 500;
+}
+
+#overlay {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+.enlarge {
+    width: 50%;
+    max-width: 800px;
+    max-height: 90vh;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 48px;
+    color: #fff;
+    padding: 16px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.carousel {
+    position: relative;
+    width: 800px;
+    height: 500px;
+  }
+  
+  .carousel__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel__buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carousel__button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #3f3f3f;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .carousel__button:hover {
+    color: #007bff;
+  }
+  
+  .carousel__button--prev {
+    margin-left: 30px;
+  }

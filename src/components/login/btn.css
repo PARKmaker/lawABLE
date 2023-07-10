@@ -1,0 +1,15 @@
+.kakaobtn {
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+.naverbtn {
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+.naverimg{
+    border-radius: 6px;
+    height: 45px;
+    width: 183px;
+}

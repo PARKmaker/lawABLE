@@ -1,0 +1,111 @@
+.cardTitle{
+    /* text-align: left;
+    margin-left: 10%; */
+    margin-top: 100px;
+}
+
+.faqTitle{
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .cardTitle{
+        /* text-align: center;
+        margin-left: 0;  */
+        margin-top: 50px;
+    }
+
+    .faqTitle{
+        margin-top: 50px;
+    }
+
+    .tochat{
+        margin-bottom:30px;
+        /* float:center; */
+    }
+
+    .main-container{
+    }
+
+    .short-container{
+        max-width: 1080px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+
+.tochat{
+    margin-bottom:30px;
+    /* float:right; */
+}
+
+/* className='list' */
+.list{
+    height:300px;
+    background-color: #DDE6ED;
+    width: 80%;
+    margin:auto;
+    display:flex;
+}
+
+
+/* className='dropfaq' */
+.dropfaq{
+    height: 300px;
+}
+
+.dropfaq > h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.faqBtn{
+
+}
+
+@keyframes slide-fade-in-dropdown-animation {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+  
+.slide-fade-in-dropdown {
+overflow: hidden;
+}
+
+.slide-fade-in-dropdown > ul {
+animation: slide-fade-in-dropdown-animation .4s ease;
+}
+
+@keyframes slide-fade-out-dropdown-animation {
+0% {
+    transform: translateY(0);
+}
+
+100% {
+    transform: translateY(-100%);
+}
+}
+
+.slide-fade-out-dropdown {
+overflow: hidden;
+}
+
+.slide-fade-out-dropdown > ul {
+animation: slide-fade-out-dropdown-animation 0.4s ease;
+animation-fill-mode: forwards;
+}
+
+.components-dropdown > ul {
+position: relative;
+top: 5px;
+margin-top: 0;
+margin-bottom: 5px;
+padding-left: 0;
+list-style: none;
+}

@@ -1,0 +1,21 @@
+.chat-input-holder {
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+}
+
+.chat-input-textarea {
+    width: 88%;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.chat-input-holder .chat-input-button {
+    height: 37px;
+    width: 10%;
+}

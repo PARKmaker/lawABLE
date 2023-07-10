@@ -1,0 +1,7 @@
+.chat-recommendation-cards {
+    background-color: rgb(189, 189, 191);
+    padding: 10px;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: space-evenly;
+}

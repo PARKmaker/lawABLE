@@ -1,0 +1,19 @@
+.content-title{
+    font-size:1.8rem;
+    font-weight:750;
+    margin-bottom:30px
+}
+
+.content-subtitle{
+    font-size:1.5rem;
+    font-weight:700;
+    margin-bottom:30px;
+    margin-left:10px;
+}
+
+.term-content{
+    font-size:1rem;
+    font-weight:500;
+    margin-bottom:60px;
+    margin-left:20px;
+}
