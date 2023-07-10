@@ -70,14 +70,14 @@ npm start
 
 #### 화면 이미지와 기능 정리
 
-<img src='./public/processImg/1.jpg' width="400" height="350">
-<img src='./public/processImg/2.jpg' width="400" height="350">
-<img src='./public/processImg/3.jpg' width="400" height="350">
-<img src='./public/processImg/4.jpg' width="400" height="350">
-<img src='./public/processImg/5.jpg' width="400" height="350">
-<img src='./public/processImg/6.jpg' width="400" height="350">
-<img src='./public/processImg/7.jpg' width="400" height="350">
-<img src='./public/processImg/8.jpg' width="400" height="350">
+<img src='./public/processImg/1.jpg' width="500" height="350">
+<img src='./public/processImg/2.jpg' width="500" height="350">
+<img src='./public/processImg/3.jpg' width="500" height="350">
+<img src='./public/processImg/4.jpg' width="500" height="350">
+<img src='./public/processImg/5.jpg' width="500" height="350">
+<img src='./public/processImg/6.jpg' width="500" height="350">
+<img src='./public/processImg/7.jpg' width="500" height="350">
+<img src='./public/processImg/8.jpg' width="500" height="350">
 
 <hr/>
 
