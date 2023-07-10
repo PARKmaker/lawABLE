@@ -17,6 +17,7 @@ export default function FostInputField(props) {
     }
 
     useEffect(() => {
+        // 다음 주소 api 컨포넌트에서만 한번만 실행. 만약 useEffect가 없다면 주소값이 value에 저장이 안되어 유효성 검사에 실패
         if (postcode) {
             setValue(postcode); // 초기값으로 postcode 값을 설정
             setPc(postcode); // pc 값을 초기값으로 설정

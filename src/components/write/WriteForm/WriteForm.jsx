@@ -14,16 +14,16 @@ import formInitialValues from "../FormModel/formInitialValues";
 
 import SenderNameForm from "../Forms/SenderNameForm";
 import RecipientNameForm from "../Forms/RecipientNameForm";
-import Review from "../Review/Review";
 import DetailsForm from "../Forms/DetailsForm";
 import axios from "axios";
 
 const { formId, formField } = checkoutFormModel;
 
 const steps = ["보내는 이", "받는 이", "세부 내용"];
-// const steps = ["보내는 이", "받는 이", "세부 내용", "추가 내용", "제출"];
 
 function getStepContent(step, certificationId) {
+    // 스텝마다 ui 변화
+
     switch (step) {
         case 0:
             return (
@@ -275,6 +275,7 @@ export default function WriteForm(props) {
     };
 
     const submitForm = async (values, actions) => {
+        // 입력 form submit 함수,
         await sleep(1000);
 
         getWriteData(values);
@@ -286,6 +287,7 @@ export default function WriteForm(props) {
     };
 
     const handleSubmit = (values, actions) => {
+        // 마지막 step이면 submit 진행, 그렇지 않으면 다음 스텝으로
         if (isLastStep) {
             submitForm(values, actions);
         } else {

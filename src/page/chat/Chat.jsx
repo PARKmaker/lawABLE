@@ -245,6 +245,7 @@ const Chat = (props) => {
     // };
 
     const categoryIdChangeHandler = (event, newValue) => {
+        // 내용증명qna, 소송qna, 법령 qna 카테고리 선택
         setCategoryId(newValue);
     };
 
@@ -318,6 +319,7 @@ const Chat = (props) => {
     };
 
     const submitMessageHandler = async (enteredMessageData) => {
+        // 메세지 submit 카테고리 별로 기능이 다름.
         await sleep(1500);
         if (categoryId === 0) {
             let chatLogNew = [...chatLog_llm, enteredMessageData];
@@ -382,38 +384,6 @@ const Chat = (props) => {
         } else {
             console.log("소송 qna");
         }
-
-        // return new Promise((resolve, reject) => {
-        //     setTimeout(() => {
-        //         const [qnac, resMessage] = sendToReceive__test();
-
-        //         const resMessageData = {
-        //             id: Date.now(),
-        //             qna_id: category,
-        //             user: "gpt",
-        //             message: resMessage,
-        //         };
-        //         if (resMessage === "error") {
-        //             setChatLog_certification([
-        //                 ...chatLogNew,
-        //                 {
-        //                     ...resMessageData,
-        //                     message: "다시 입력해주세요.",
-        //                 },
-        //             ]);
-        //             setQnaCategory(qnac);
-        //             reject(
-        //                 new Error("Good guess but a wrong answer. Try again!")
-        //             );
-        //         } else {
-        //             setChatLog_certification([...chatLogNew, resMessageData]);
-        //             setQnaCategory(qnac);
-
-        //             setIsRecommendation(true);
-        //             resolve();
-        //         }
-        //     }, 3000);
-        // });
     };
 
     return (
