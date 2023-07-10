@@ -92,4 +92,6 @@ npm start
 
 ## 시연 영상
 
-<img src='./public/processImg/깃허브 업로드용 시연영상.gif' width="1280" height="560">
+[![Video Label](http://img.youtube.com/vi/'유튜브주소의id'/0.jpg)](https://youtu.be/4NAUn0JS17Q)
+
+<!-- <img src='./public/processImg/깃허브 업로드용 시연영상.gif' width="1280" height="560"> -->
