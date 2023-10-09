@@ -17,7 +17,7 @@
 
 ## :camera: 데모 영상 : 유튜브 링크
 
-## [![Video Label](http://img.youtube.com/vi/'유튜브주소의id'/0.jpg)](https://youtu.be/4NAUn0JS17Q) : 전체적인 시연영상입니다.
+[![Video Label](http://img.youtube.com/vi/'유튜브주소의id'/0.jpg)](https://youtu.be/4NAUn0JS17Q) : 전체적인 시연영상입니다.
 
 ## 역할 분담
 
