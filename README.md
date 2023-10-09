@@ -12,15 +12,12 @@
 <!-- About the Project -->
 
 ## :star2: 배포 링크
-
 <a href='https://lawable.vercel.app/'>배포 사이트</a> **: 서버 운영의 어려움으로 프론트엔드 페이지만 배포**
 
 ## :camera: 데모 영상 : 유튜브 링크
-
 [![Video Label](http://img.youtube.com/vi/'유튜브주소의id'/0.jpg)](https://youtu.be/4NAUn0JS17Q) : 전체적인 시연영상입니다.
 
 ## 역할 분담
-
 - 프론트엔드 3명 (<strong>CHAT, WRITE 페이지 담당</strong>)
 - 백엔드 2명
 - AI모델 2명
