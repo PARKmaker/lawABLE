@@ -19,6 +19,9 @@
 
 [![Video Label](http://img.youtube.com/vi/'유튜브주소의id'/0.jpg)](https://youtu.be/4NAUn0JS17Q) : 전체적인 시연영상입니다.
 
+## 개요
+- 법률 언어 생성형 모델을 이용한 간단한 법률 상담.
+- 간단한 내용 증명 작성을 도와주는 웹 서비스
 <!-- 사용 기술 스택 -->
 
 ### :space_invader: Tech Stack
