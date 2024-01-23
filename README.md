@@ -46,10 +46,18 @@
 
 ### :dart: 특징
 
+- 
 - API를 통해 model flask 서버와 django 서버 통신
 - formik을 통해 서류 작성 입력 양식 유효성 체크 (src/components/write/FormModel)
 - react-daum-postcode을 이용 modal창을 띄어 주소 자동 입력.
 - mui Stepper를 통해 내용증명 작성 진행도 파악.
+
+## :grey_question: 개발하면서 고민한점
+
+- 서버와 통신할때(POST, GET) Promise 객체로 반환되고, 빈값으로 받아지는 문제점 -> asnyc await를 통해 해결
+- "다음 주소 api"를 통해 값을 입력할 때 ui에는 적용 되지만 formik의 유효성 검사를 통과 하지 못하는 문제점
+  -> "다음 주소 api" 컨포넌트가 실행될때만 작동하게 useEffect 함수를 이용하고, formik의 helper 객체의 setValue 함수를 이용하여 해결
+  -> 이때 useEffect deps에 값이 입력될때만 작동시킬 수 있도록 주소값 변수를 넣기(그렇지 않으면 무한 실행 되어 서버 다운)
 
 <!-- 사용 기술 스택 -->
 
@@ -71,6 +79,17 @@
     <li><a href="https://vercel.com/">vercel</a></li>
   </ul>
 </details>
+
+## 화면 이미지와 기능 정리
+
+<img src='./public/processImg/1.JPG' width="500" height="350">
+<img src='./public/processImg/2.JPG' width="500" height="350">
+<img src='./public/processImg/3.JPG' width="500" height="350">
+<img src='./public/processImg/4.JPG' width="500" height="350">
+<img src='./public/processImg/5.JPG' width="500" height="350">
+<img src='./public/processImg/6.JPG' width="500" height="350">
+<img src='./public/processImg/7.JPG' width="500" height="350">
+<img src='./public/processImg/8.JPG' width="500" height="350">
 
 ## <!-- Getting Started -->
 
@@ -102,20 +121,4 @@ Start the server
   npm start
 ```
 
-## :grey_question: 개발하면서 고민한점
 
-- 서버와 통신할때(POST, GET) Promise 객체로 반환되고, 빈값으로 받아지는 문제점 -> asnyc await를 통해 해결
-- "다음 주소 api"를 통해 값을 입력할 때 ui에는 적용 되지만 formik의 유효성 검사를 통과 하지 못하는 문제점
-  -> "다음 주소 api" 컨포넌트가 실행될때만 작동하게 useEffect 함수를 이용하고, formik의 helper 객체의 setValue 함수를 이용하여 해결
-  -> 이때 useEffect deps에 값이 입력될때만 작동시킬 수 있도록 주소값 변수를 넣기(그렇지 않으면 무한 실행 되어 서버 다운)
-
-## 화면 이미지와 기능 정리
-
-<img src='./public/processImg/1.JPG' width="500" height="350">
-<img src='./public/processImg/2.JPG' width="500" height="350">
-<img src='./public/processImg/3.JPG' width="500" height="350">
-<img src='./public/processImg/4.JPG' width="500" height="350">
-<img src='./public/processImg/5.JPG' width="500" height="350">
-<img src='./public/processImg/6.JPG' width="500" height="350">
-<img src='./public/processImg/7.JPG' width="500" height="350">
-<img src='./public/processImg/8.JPG' width="500" height="350">
